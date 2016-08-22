@@ -21,7 +21,7 @@ int stepX;
 int stepY;
 
 void setup(){
-  size(800, 400);
+  size(1280, 720);
   background(0);
 }
 
@@ -29,7 +29,7 @@ void draw(){
   if(savePDF) beginRecord(PDF, timestamp()+".pdf");
   noStroke();
   colorMode(HSB, width, height, 100);
-  //translate(400, 200);
+  translate(400, 200);
 
   
   stepX = mouseX+2;
